@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+:root{
+  background-color: rgb(94, 86, 86);
+}
+p{
+  text-align: center;
+}
+div{
+  display: block;
+  text-align: center;
+}
+h1{
+  text-align: center;
+}
