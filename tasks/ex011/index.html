@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+  <title>Mídias em HTML</title>
+</head>
+<body>
+  <h1>Imagens Dinâmicas</h1>
+  <p>Tente abrir esse site em dispositivos diferentes ou diminua e aumente seu navegador</p>
+
+  <picture>
+    <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+    <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+    <img src="imagens/foto-g.png" alt="Imagem  Flexível">
+  </picture>
+
+    <h1>Inserção de audio </h1>
+    <h2>audio simples</h2>
+    <audio src="midia/Cameras-ALBIS.mp3" controls >Musica do youtube</audio>
+
+    <h2>outro tipo <i><b>(mais abrangente)</b></i></h2>
+    <audio preload="metadata" controls loop>
+      <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+      <source src="midia/guanacast-33.ogg" type="audio/ogg">
+      <source src="midia/guanacast-33.wav" type="audio/wav">
+      <p>O seu navegador não consegiu carregar o áudio, <a href="midia/guanacast-33.mp3">clique aqui</a> se deseja baixa-lo</p>
+    </audio>
+</body>
+</html>

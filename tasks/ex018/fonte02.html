@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>fontes externas</title>
+  <style>
+    @font-face {
+      font-family:'Halloween' ;
+      src: url('fontes/Bloody Frozen.otf') format('opentype'), url('fontes/Bloody Frozen.ttf') format('truetype');
+      font-weight: normal;
+      font-style: normal;
+    }
+    body{
+      font-family: Arial, Helvetica, sans-serif;
+    }
+    h1{
+      font-family: 'Halloween', times, serif;
+      font-size: 3em;
+    }
+  </style>
+</head>
+<body>
+
+ 
+  <h1>Título</h1>
+  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus soluta deserunt, voluptates repudiandae esse ut a, laudantium repellat ipsum molestiae neque dolorem commodi. Porro culpa quos sunt debitis, asperiores sapiente.</p>
+
+  <picture>
+    <source media="(max-width:650px )" srcset="imagens/pequena.jpg" type="image/jpeg">
+    <source media="(max-width:1350px )" srcset="imagens/media.png" type="image/png">
+    <img src="imagens/grande.jpg">
+  </picture>
+
+</body>
+</html>
