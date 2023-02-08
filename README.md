@@ -42,7 +42,7 @@ Curso de HTML5 e CSS3 / Cursoemvideo
 <br>
 <a href="https://fabio-arbr.github.io/html-css/tasks/ex019/" target="_blank" >Visualizar o exercicio 019</a>
 <br>
-<a href="https://fabio-arbr.github.io/html-css/tasks/ex020/" target="_blank" >Visualizar o exercicio 020</a>
+<a href="https://fabio-arbr.github.io/html-css/tasks/ex020/" target="_blank" >Visualizar o exercicio 020</a> 
 <br>
 <a href="https://fabio-arbr.github.io/html-css/tasks/ex021/" target="_blank" >Visualizar o exercicio 021</a>
 
