@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+:root{
+  --font001: 'Courier New', Courier, monospace;
+  --font002: 'Passion One', cursive;
+  --font003: 'Sriracha', cursive;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+header{
+  background-color: black;
+  height: 20vw;
+}
+
+header h1{
+  color: white;
+  text-align: center;
+  font-size: 7vw;
+  font-family: var(--font001);
+
+  padding-top: 50px;
+}
+
+header p{
+  color: white;
+  text-align: center;
+  font-size: 18px;
+  padding-top: 20px;
+}
+
+header a{
+  text-decoration: none;
+  color: white;
+  font-weight: bolder;
+  font-size: 22px;
+}
+
+header a:hover{
+  text-decoration: underline;
+}
+
+section{
+  font-family: var(--font003);
+  padding-top: 100px;
+  padding-left: 25px;
+  padding-bottom:15vh;
+  
+  line-height: 2em; 
+  
+  font-weight: 600;
+  font-size: 3.5vw;
+  font-family: var(--font003);
+}
+
+section#image01{
+  background-image: url(imagens/background001.jpg);
+
+  background-position: right center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 100px;
+
+  padding-top:100px;
+  padding-left: 25px;
+  padding-bottom: 100px;
+}
+
+section#image01 > p{
+  display: inline-block;
+
+  padding: 5px;
+
+  background-color: rgba(0, 0, 0, 0.63);
+  color: white;
+}
+
