@@ -35,7 +35,6 @@ header a{
   text-decoration: none;
   color: white;
   font-weight: bolder;
-  font-size: 22px;
 }
 
 header a:hover{
@@ -51,8 +50,7 @@ section{
   line-height: 2em; 
   
   font-weight: 600;
-  font-size: 3.5vw;
-  font-family: var(--font003);
+  font-size: 3.3vw;
 }
 
 section#image01{
@@ -61,11 +59,6 @@ section#image01{
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
-  padding: 100px 100px;
-
-  padding-top:12vh;
-  padding-left: 25px;
-  padding-bottom: 12vh;
 }
 
 section#image02{
@@ -100,7 +93,7 @@ footer > p {
   font-family: var(--font001);
 }
 
-footer  a{
+footer a{
   text-decoration: none;
   color: white;
 
