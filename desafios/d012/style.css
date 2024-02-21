@@ -1,24 +1,24 @@
 @charset "UTF-8";
 
-:root{
+:root {
   --font001: 'Courier New', Courier, monospace;
   --font002: 'Passion One', cursive;
   --font003: 'Sriracha', cursive;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   font-size: 1em;
 }
 
-header{
+header {
   background-color: black;
   text-align: center;
   color: white;
 }
 
-header h1{
+header h1 {
   font-variant: small-caps;
   font-size: 10vw;
   font-family: var(--font001);
@@ -26,63 +26,68 @@ header h1{
   padding-top: 50px;
 }
 
-header p{
+header p {
   padding-top: 10px;
   padding-bottom: 50px;
 }
 
-header a{
+header a {
   text-decoration: none;
   color: white;
   font-weight: bolder;
 }
 
-header a:hover{
+header a:hover {
   text-decoration: underline;
 }
 
-section{
+section {
   font-family: var(--font003);
   padding-top: 100px;
   padding-left: 25px;
-  padding-bottom:15vh;
-  
-  line-height: 2em; 
-  
+  padding-bottom: 15vh;
+
+  line-height: 2em;
+
   font-weight: 600;
   font-size: 3.3vw;
 }
 
-section#image01{
+section#image01 {
   background-image: url(imagens/background001.jpg);
 
   background-position: right center;
   background-size: cover;
   background-attachment: fixed;
+  box-shadow: inset 5px 16px 10px rgba(0, 0, 0, 0.521);
 }
 
-section#image02{
+section#image02 {
   background-image: url(imagens/background002.jpg);
 
+  background-position: right center;
   background-attachment: fixed;
   background-size: cover;
+  box-shadow: inset 5px 16px 10px rgba(0, 0, 0, 0.521);
 }
 
-section.background_image > p{
+section.background_image > p {
   display: inline-block;
 
   padding: 5px;
 
   background-color: rgba(0, 0, 0, 0.63);
   color: white;
+
+  text-shadow: 3px 3px 2px black;
 }
 
-section > p{
+section > p {
   padding-bottom: 85px;
   font-style: italic;
 }
 
-footer{
+footer {
   background-color: black;
   color: white;
   padding: 10px;
@@ -93,14 +98,14 @@ footer > p {
   font-family: var(--font001);
 }
 
-footer a{
+footer a {
   text-decoration: none;
   color: white;
 
   font-weight: bolder;
 }
 
-footer a:hover{
+footer a:hover {
   color: yellow;
   text-decoration: underline;
 }
