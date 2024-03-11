@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coloração</title>
+  <style>
+    table{
+      border-collapse: collapse;
+    }
+    td,th{
+      border: 1px solid black;
+      width: 100px;
+      text-align: center;
+    }
+    col.nome{
+      background-color: grey;
+      text-align: center;
+    }
+    col.idade{
+      background-color: aquamarine;
+    }
+    col.sexo{
+      background-color: aquamarine;
+    }
+    col.pais{
+      background-color: grey;
+    }
+  </style>
+</head>
+<body>
+  <table>
+    <colgroup>
+      <col class="nome">
+      <col class="idade">
+      <col class="sexo">
+      <col class="pais">
+    </colgroup>
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Idade</th>
+        <th>Sexo</th>
+        <th>País</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Marta</td>
+        <td>33</td>
+        <td>F</td>
+        <td>Brasil</td>
+      </tr>
+      <tr>
+        <td>Cleiton</td>
+        <td>23</td>
+        <td>M</td>
+        <td>Brasil</td>
+      </tr>
+      <tr>
+        <td>Sergio</td>
+        <td>39</td>
+        <td>M</td>
+        <td>Brasil</td>
+      </tr>
+      <tr>
+        <td>Francisca</td>
+        <td>22</td>
+        <td>F</td>
+        <td>Brasil</td>
+      </tr>
+    </tbody>
+  </table>
+</body>
+</html>
