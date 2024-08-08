@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Forms</title>
+</head>
+<body>
+  <h1>Exemplos de Formularios</h1>
+  <form action="cadastro.php" method="get">
+    <fieldset id="sexo">
+      <legend>Sexo</legend>
+      <p>
+        <input type="radio" name="sexo" id="ismasculino" value="M" checked> <label for="ismasculino">Masculino</label>
+      </p>
+      <p>
+        <input type="radio" name="sexo" id="isfeminino" value="F"> <label for="isfeminino">Feminino</label>
+      </p>
+    </fieldset>
+    <fieldset>
+      <legend>Esportes Favoritos</legend>
+      <p>
+        <input type="checkbox" name="futebol" id="ifutebol"> <label for="ifutebol">Futebol</label>
+      </p>
+
+      <p>
+        <input type="checkbox" name="volei" id="ivolei"> <label for="ivolei">Volei</label>
+      </p>
+
+      <p>
+        <input type="checkbox" name="basquete" id="ibasquete"> <label for="ibasquete">Basquete</label>
+      </p>
+
+      <p>
+        <input type="checkbox" name="tenis_de_mesa" id="itenis_de_mesa" checked> <label for="itenis_de_mesa">Tênis de Mesa</label>
+      </p>
+    </fieldset>
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </p>
+  </form>
+</body>
+
+<style>
+  p{
+    margin: 0;
+  }
+
+  #sexo{
+    display: flex;
+  }
+</style>
+
+</html>
