@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Form</title>
+</head>
+<body>
+  <h1>
+    Exemplos Formulários
+  </h1>
+  <form action="cadastro.php" method="get">
+
+    <p>
+      <label for="inivel">Nível</label>
+      <input type="range" name="nivel" id="inivel" value="5" min="0" max="10" oninput="imostrar.innerHTML = Number(inivel.value)">
+      <output id="imostrar">5</output>
+    </p>
+
+    <p>
+      <input type="submit" value="Enviar">
+      <input type="reset" value="Limpar">
+    </p>
+  </form>
+</body>
+</html>
